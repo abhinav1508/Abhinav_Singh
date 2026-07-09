@@ -21,9 +21,18 @@ export default function ProcurementProjectDetail() {
             <h1 className="text-[48px] md:text-[72px] font-headline-md leading-[1.05] mb-8">
               Modernizing Enterprise Procurement through Intelligent Inventory Management
             </h1>
-            <p className="text-body-lg text-surface-variant max-w-3xl leading-relaxed opacity-90">
+            <p className="text-body-lg text-surface-variant max-w-3xl leading-relaxed opacity-90 mb-10">
               Designed and implemented an end-to-end Procurement &amp; Inventory Management System that digitizes the complete procurement lifecycle—from purchase requests and vendor communication to inventory reconciliation and material movement—enabling organizations to streamline operations, improve inventory visibility, and maintain accurate stock control.
             </p>
+            <Link
+              href="https://cgit-pims.vercel.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-primary text-on-primary text-label-caps font-bold px-8 py-4 hover:bg-white hover:text-black transition-all duration-300 uppercase tracking-widest"
+            >
+              <span>View Prototype</span>
+              <span className="material-symbols-outlined text-[20px]">open_in_new</span>
+            </Link>
           </div>
 
           <div className="flex flex-wrap gap-12 border-t border-surface/20 pt-8 mt-12">

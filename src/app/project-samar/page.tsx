@@ -21,9 +21,18 @@ export default function SamarProjectDetail() {
             <h1 className="text-[48px] md:text-[72px] font-headline-md leading-[1.05] mb-8">
               Digitizing Vendor Certification through the SAMAR Platform
             </h1>
-            <p className="text-body-lg text-surface-variant max-w-3xl leading-relaxed opacity-90">
+            <p className="text-body-lg text-surface-variant max-w-3xl leading-relaxed opacity-90 mb-10">
               Designed and contributed to a national digital certification platform for the Quality Council of India (QCI) and DRDO, transforming complex vendor registration, assessment, and certification workflows into a unified digital ecosystem that supports India's indigenous defence manufacturing initiatives.
             </p>
+            <Link
+              href="/SAMAR-case-study.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-primary text-on-primary text-label-caps font-bold px-8 py-4 hover:bg-white hover:text-black transition-all duration-300 uppercase tracking-widest"
+            >
+              <span>View Full Case Study (PDF)</span>
+              <span className="material-symbols-outlined text-[20px]">open_in_new</span>
+            </Link>
           </div>
 
           <div className="flex flex-wrap gap-12 border-t border-surface/20 pt-8 mt-12">
