@@ -42,17 +42,17 @@ export default function VMMCProjectDetail() {
       {/* INFO STRIP */}
       <section className="bg-surface relative -mt-24 z-20 mx-margin-page max-w-container-max md:mx-auto border-t-[8px] border-primary shadow-2xl">
         <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">ROLE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Business Analyst</h3>
             <p className="text-body-md text-on-surface-variant">Collaborated with academic stakeholders, faculty members, designers, and development teams to understand examination workflows, document requirements, optimize question management processes, and support the implementation of a centralized examination platform.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">TIMELINE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Academic Digital Transformation</h3>
             <p className="text-body-md text-on-surface-variant">Designed and supported the implementation of a scalable examination and question bank management platform.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Web Platform</h3>
             <p className="text-body-md text-on-surface-variant">Question Bank • Examination Management • Faculty Portal • Academic Administration</p>
@@ -94,7 +94,7 @@ export default function VMMCProjectDetail() {
               ></div>
             </div>
             {/* Overlay Box */}
-            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-12 max-w-2xl shadow-2xl">
+            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-6 md:p-12 max-w-2xl shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM ARCHITECTURE</span>
               <h3 className="text-[32px] font-headline-md mb-6 leading-tight">Building a Centralized Medical Examination Ecosystem</h3>
               <p className="text-body-md text-surface-variant leading-relaxed">

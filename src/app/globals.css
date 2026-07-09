@@ -99,11 +99,11 @@
   --text-body-md--line-height: 1.6;
   --text-body-md--font-weight: 400;
 
-  --spacing-section-gap: 120px;
+  --spacing-section-gap: clamp(64px, 8vw, 120px);
   --spacing-margin-page-mobile: 24px;
-  --spacing-margin-page: 64px;
+  --spacing-margin-page: clamp(24px, 5vw, 64px);
   --spacing-element-gap: 24px;
-  --spacing-gutter: 32px;
+  --spacing-gutter: clamp(16px, 3vw, 32px);
   --spacing-container-max: 1280px;
 }
 

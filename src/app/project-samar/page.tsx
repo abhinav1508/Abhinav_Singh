@@ -42,17 +42,17 @@ export default function SamarProjectDetail() {
       {/* INFO STRIP */}
       <section className="bg-surface relative -mt-24 z-20 mx-margin-page max-w-container-max md:mx-auto border-t-[8px] border-primary shadow-2xl">
         <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">ROLE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Business Analyst</h3>
             <p className="text-body-md text-on-surface-variant">Led requirement gathering, stakeholder discussions, workflow design, business documentation, and product validation while collaborating with cross-functional teams throughout the platform development lifecycle.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">TIMELINE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">National Digital Transformation</h3>
             <p className="text-body-md text-on-surface-variant">Designed and implemented a scalable certification platform supporting thousands of defence vendors across India.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Web Platform</h3>
             <p className="text-body-md text-on-surface-variant">Vendor Portal • Assessment Workflow • Certification Management • Admin Dashboard</p>
@@ -63,7 +63,7 @@ export default function SamarProjectDetail() {
       {/* HIGHLIGHTED CONTEXT SECTION */}
       <section className="bg-surface pt-24 pb-8">
         <div className="max-w-container-max mx-auto px-margin-page">
-          <div className="bg-surface-container-low border-l-4 border-primary p-8 md:p-12">
+          <div className="bg-surface-container-low border-l-4 border-primary p-8 md:p-6 md:p-12">
             <h3 className="text-[24px] font-headline-md mb-4 text-on-surface">Project Context</h3>
             <p className="text-body-lg text-on-surface-variant leading-relaxed">
               SAMAR is a national digital initiative developed for the Quality Council of India (QCI) in collaboration with DRDO to strengthen India's indigenous defence manufacturing ecosystem by streamlining vendor certification and assessment processes.
@@ -106,7 +106,7 @@ export default function SamarProjectDetail() {
               ></div>
             </div>
             {/* Overlay Box */}
-            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-12 max-w-2xl shadow-2xl">
+            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-6 md:p-12 max-w-2xl shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM ARCHITECTURE</span>
               <h3 className="text-[32px] font-headline-md mb-6 leading-tight">Building a Unified Vendor Certification Ecosystem</h3>
               <p className="text-body-md text-surface-variant leading-relaxed">

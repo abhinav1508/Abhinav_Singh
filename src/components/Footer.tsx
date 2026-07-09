@@ -12,8 +12,8 @@ export default function Footer() {
 
 
       {/* Main Footer Links */}
-      <div className="max-w-container-max mx-auto py-24 px-24 md:px-0 grid grid-cols-12 gap-gutter items-start">
-        <div className="col-span-12 md:col-span-6 flex flex-col gap-8 pr-12">
+      <div className="max-w-container-max mx-auto py-24 px-6 md:px-margin-page grid grid-cols-12 gap-gutter items-start">
+        <div className="col-span-12 md:col-span-6 flex flex-col gap-8 md:pr-12">
           <span className="text-headline-md font-headline-md text-surface tracking-tighter">
             Abhinav Singh
           </span>

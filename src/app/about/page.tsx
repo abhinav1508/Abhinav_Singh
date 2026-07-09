@@ -76,7 +76,7 @@ export default function AboutPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Phase 1 */}
-            <div className="p-12 border border-outline-variant/30 hover:border-outline-variant hover:shadow-lg transition-all duration-500 bg-surface flex flex-col justify-between group">
+            <div className="p-6 md:p-12 border border-outline-variant/30 hover:border-outline-variant hover:shadow-lg transition-all duration-500 bg-surface flex flex-col justify-between group">
               <div>
                 <span className="font-label-caps text-label-caps text-red-600 mb-6 block tracking-[0.2em]">2023 – 2024</span>
                 <h3 className="text-[28px] font-headline-md mb-6 leading-tight group-hover:text-red-600 transition-colors">AI &amp; Product Foundations</h3>
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </div>
 
             {/* Phase 2 */}
-            <div className="p-12 border border-outline-variant/30 hover:border-outline-variant hover:shadow-lg transition-all duration-500 bg-surface flex flex-col justify-between group">
+            <div className="p-6 md:p-12 border border-outline-variant/30 hover:border-outline-variant hover:shadow-lg transition-all duration-500 bg-surface flex flex-col justify-between group">
               <div>
                 <span className="font-label-caps text-label-caps text-red-600 mb-6 block tracking-[0.2em]">2024 – 2026</span>
                 <h3 className="text-[28px] font-headline-md mb-6 leading-tight group-hover:text-red-600 transition-colors">Business Analysis</h3>
@@ -102,7 +102,7 @@ export default function AboutPage() {
             </div>
 
             {/* Phase 3 */}
-            <div className="p-12 bg-on-background text-surface flex flex-col justify-between group">
+            <div className="p-6 md:p-12 bg-on-background text-surface flex flex-col justify-between group">
               <div>
                 <span className="font-label-caps text-label-caps text-red-500 mb-6 block tracking-[0.2em]">2026 – PRESENT</span>
                 <h3 className="text-[32px] font-headline-md mb-6 leading-tight text-white">Business Consulting</h3>

@@ -42,17 +42,17 @@ export default function BEEProjectDetail() {
       {/* INFO STRIP */}
       <section className="bg-surface relative -mt-24 z-20 mx-margin-page max-w-container-max md:mx-auto border-t-[8px] border-primary shadow-2xl">
         <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">ROLE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Business Analyst</h3>
             <p className="text-body-md text-on-surface-variant">Collaborated with stakeholders, designers, and engineering teams to gather requirements, define workflows, prepare business documentation, and support the implementation of web and mobile applications across multiple user groups.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">TIMELINE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Government Digital Transformation</h3>
             <p className="text-body-md text-on-surface-variant">Supported the modernization of national energy efficiency services through integrated web and mobile platforms.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Web Portal + Mobile App</h3>
             <p className="text-body-md text-on-surface-variant">Admin Portal • SDA Portal • Public App • Vigilance Module</p>
@@ -94,7 +94,7 @@ export default function BEEProjectDetail() {
               ></div>
             </div>
             {/* Overlay Box */}
-            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-12 max-w-2xl shadow-2xl">
+            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-6 md:p-12 max-w-2xl shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM ARCHITECTURE</span>
               <h3 className="text-[32px] font-headline-md mb-6 leading-tight">Building a Connected Energy Compliance Ecosystem</h3>
               <p className="text-body-md text-surface-variant leading-relaxed">

@@ -84,7 +84,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="col-span-4 flex flex-col justify-center">
-              <div className="p-12 md:p-16 border border-outline-variant bg-surface-container-lowest h-full flex flex-col justify-center relative overflow-hidden">
+              <div className="p-6 md:p-16 border border-outline-variant bg-surface-container-lowest h-full flex flex-col justify-center relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-on-tertiary-container/5 rounded-full -mr-16 -mt-16"></div>
                 <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-6">FLAGSHIP PROJECT</span>
                 <h3 className="text-headline-md font-headline-md mb-6 leading-[1.2]">

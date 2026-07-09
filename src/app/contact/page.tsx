@@ -183,7 +183,7 @@ export default function Contact() {
             </div>
 
             {/* Minimal Map Card Section */}
-            <div className="border border-outline-variant/30 rounded-2xl p-8 md:p-12 bg-surface-container-low shadow-sm">
+            <div className="border border-outline-variant/30 rounded-2xl p-8 md:p-6 md:p-12 bg-surface-container-low shadow-sm">
               <h4 className="font-headline-sm text-2xl mb-4">Working Across India</h4>
               <p className="text-on-surface-variant mb-8 leading-relaxed">
                 Supporting organizations remotely and on-site across government, enterprise, and technology domains.

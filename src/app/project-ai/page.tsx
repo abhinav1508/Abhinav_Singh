@@ -42,17 +42,17 @@ export default function AIProjectDetail() {
       {/* INFO STRIP */}
       <section className="bg-surface relative -mt-24 z-20 mx-margin-page max-w-container-max md:mx-auto border-t-[8px] border-primary shadow-2xl">
         <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">ROLE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Product Research Intern</h3>
             <p className="text-body-md text-on-surface-variant">Contributed across product research, technical writing, and quality assurance while collaborating with cross-functional teams to improve AI workflows, documentation, usability, and product quality.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">TIMELINE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Enterprise AI Product Development</h3>
             <p className="text-body-md text-on-surface-variant">Supported research, documentation, feature validation, and testing throughout the product development lifecycle.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Web-Based AI Assistant</h3>
             <p className="text-body-md text-on-surface-variant">LLM • Knowledge Base • Enterprise AI • Conversational Search</p>
@@ -94,7 +94,7 @@ export default function AIProjectDetail() {
               ></div>
             </div>
             {/* Overlay Box */}
-            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-12 max-w-2xl shadow-2xl">
+            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-6 md:p-12 max-w-2xl shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM ARCHITECTURE</span>
               <h3 className="text-[32px] font-headline-md mb-6 leading-tight">Designing an Enterprise Knowledge Discovery Platform</h3>
               <p className="text-body-md text-surface-variant leading-relaxed">

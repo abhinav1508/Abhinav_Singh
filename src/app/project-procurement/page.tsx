@@ -42,17 +42,17 @@ export default function ProcurementProjectDetail() {
       {/* INFO STRIP */}
       <section className="bg-surface relative -mt-24 z-20 mx-margin-page max-w-container-max md:mx-auto border-t-[8px] border-primary shadow-2xl">
         <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">ROLE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Business Consultant</h3>
             <p className="text-body-md text-on-surface-variant">Led business analysis, product planning, workflow design, requirement engineering, and stakeholder collaboration while defining procurement, inventory, and warehouse management processes.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">TIMELINE</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Enterprise Product Development</h3>
             <p className="text-body-md text-on-surface-variant">Designed and implemented a scalable procurement platform supporting inventory operations, vendor coordination, warehouse management, and material tracking.</p>
           </div>
-          <div className="p-12">
+          <div className="p-6 md:p-12">
             <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM</span>
             <h3 className="text-[24px] font-headline-md mb-4 leading-tight">Web Platform</h3>
             <p className="text-body-md text-on-surface-variant">Procurement • Inventory • Vendor Management • Warehouse Operations</p>
@@ -94,7 +94,7 @@ export default function ProcurementProjectDetail() {
               ></div>
             </div>
             {/* Overlay Box */}
-            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-12 max-w-2xl shadow-2xl">
+            <div className="md:absolute md:bottom-0 md:right-0 md:translate-y-12 md:-translate-x-12 bg-on-background text-on-primary p-6 md:p-12 max-w-2xl shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container tracking-[0.2em] mb-4 block">PLATFORM ARCHITECTURE</span>
               <h3 className="text-[32px] font-headline-md mb-6 leading-tight">Designing an End-to-End Procurement Ecosystem</h3>
               <p className="text-body-md text-surface-variant leading-relaxed">

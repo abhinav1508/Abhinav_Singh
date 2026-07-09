@@ -112,7 +112,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-t border-outline/20">
             {/* Business Analysis */}
-            <div className="expertise-card group p-12 lg:border-r border-outline/20 flex flex-col h-full">
+            <div className="expertise-card group p-6 md:p-12 lg:border-r border-outline/20 flex flex-col h-full">
               <div className="flex flex-col flex-grow">
                 <div className="mb-auto">
                   <span
@@ -147,7 +147,7 @@ export default function Home() {
               </div>
             </div>
             {/* Product Strategy */}
-            <div className="expertise-card group p-12 lg:border-r border-outline/20 flex flex-col h-full">
+            <div className="expertise-card group p-6 md:p-12 lg:border-r border-outline/20 flex flex-col h-full">
               <div className="flex flex-col flex-grow">
                 <div className="mb-auto">
                   <span
@@ -184,7 +184,7 @@ export default function Home() {
               </div>
             </div>
             {/* Digital Transformation */}
-            <div className="expertise-card group p-12 lg:border-r border-outline/20 flex flex-col h-full">
+            <div className="expertise-card group p-6 md:p-12 lg:border-r border-outline/20 flex flex-col h-full">
               <div className="flex flex-col flex-grow">
                 <div className="mb-auto">
                   <span
@@ -221,7 +221,7 @@ export default function Home() {
               </div>
             </div>
             {/* AI-Assisted Product Development */}
-            <div className="expertise-card group p-12 flex flex-col h-full">
+            <div className="expertise-card group p-6 md:p-12 flex flex-col h-full">
               <div className="flex flex-col flex-grow">
                 <div className="mb-auto">
                   <span

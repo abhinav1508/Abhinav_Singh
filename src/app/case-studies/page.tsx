@@ -112,7 +112,7 @@ export default function CaseStudies() {
           </div>
           {/* Content Overlay */}
           <div className="relative z-10 p-8 md:p-16 w-full md:max-w-3xl">
-            <div className="bg-surface p-8 md:p-12 shadow-2xl">
+            <div className="bg-surface p-8 md:p-6 md:p-12 shadow-2xl">
               <span className="text-label-caps font-label-caps text-on-tertiary-container mb-4 block tracking-[0.2em]">FEATURED CASE STUDY / GOVERNMENT DIGITAL TRANSFORMATION</span>
               <h2 className="text-[32px] md:text-[40px] font-headline-md mb-6 leading-tight">
                 Building an AI-Enabled Digital Operations Platform for South East Central Railway
@@ -158,7 +158,7 @@ export default function CaseStudies() {
                   />
                 </div>
               </div>
-              <div className={`md:col-span-7 p-8 md:p-12 flex flex-col justify-center ${!project.imageLeft ? 'md:order-1' : ''}`}>
+              <div className={`md:col-span-7 p-8 md:p-6 md:p-12 flex flex-col justify-center ${!project.imageLeft ? 'md:order-1' : ''}`}>
                 <span className="text-label-caps font-label-caps text-on-surface-variant mb-4 tracking-[0.2em]">{project.label}</span>
                 <h3 className="text-headline-md font-headline-md mb-4">{project.heading}</h3>
                 <p className="text-body-md text-on-surface-variant mb-6 max-w-xl">

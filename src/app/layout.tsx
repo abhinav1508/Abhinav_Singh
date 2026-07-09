@@ -16,8 +16,8 @@ const hanken = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "STRATEGY.OS | Executive Narrative",
-  description: "Digital & strategic projects that are shaping global narratives.",
+  title: "Abhinav Singh | Portfolio",
+  description: "Business Consultant, Product Strategy, and Digital Transformation Portfolio.",
 };
 
 import Header from "@/components/Header";
